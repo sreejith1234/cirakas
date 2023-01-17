@@ -348,7 +348,7 @@ header div{
 }
 .con-card {
     transform: translate(27%, -117%);
-    height: 75%;
+    height: 70%;
     width: 100%;
     background: #75bbb8;
     color: var(--white);
