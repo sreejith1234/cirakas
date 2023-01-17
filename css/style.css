@@ -347,10 +347,11 @@ header div{
     opacity: 70%;
 }
 .con-card {
-    transform: translate(27%, -117%);
-    height: 70%;
-    width: 100%;
+    transform: translate(39%, -117%);
+    height: 75%;
+    width: 25%;
     background: #75bbb8;
+    position: absolute;
     color: var(--white);
     padding: 3rem;
     font-family: Roboto-Regular;
