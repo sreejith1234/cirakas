@@ -27,6 +27,40 @@ html {
 body{
    
 }
+.hamburger {
+    display: none;
+}
+#button svg{
+    width: 14px;
+    padding-top: 12px;
+    fill:#fff;
+}
+#button {
+  cursor: pointer;
+  display: inline-block;
+  background-color: #555;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+  opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+  text-decoration: none;
+  color:#fff;
+  font-size: 12px;
+}
+
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
 /*header*/
 #menu-center ul li {
     list-style: none;
@@ -36,6 +70,15 @@ body{
 #menu-center ul{
     margin-bottom: 0rem;
     padding-left: 0rem;
+}
+.hamburger{
+
+}
+.menu-icon {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
 }
 header div{
     display: flex;
@@ -304,11 +347,10 @@ header div{
     opacity: 70%;
 }
 .con-card {
-    transform: translate(39%, -117%);
+    transform: translate(27%, -117%);
     height: 75%;
-    width: 25%;
+    width: 100%;
     background: #75bbb8;
-    position: absolute;
     color: var(--white);
     padding: 3rem;
     font-family: Roboto-Regular;
@@ -341,7 +383,7 @@ header div{
     border-top:solid 1px var(--primary);
     border-left:solid 1px var(--primary);
     width:95%;
-    height:16rem;
+    height: 8.5rem;
     margin-top: 1.5rem;
 }
 .section-left-txt{
