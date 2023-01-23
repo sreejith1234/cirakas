@@ -134,7 +134,7 @@ header div{
 
 /*banner*/
 .bg-cover{
-    background: linear-gradient(0deg, rgb(0 0 0 / 0%) 0%, rgb(0 0 0 / 0%) 100%), url(../img/banner.jpg);
+    background: linear-gradient(0deg, rgb(117 187 184) 0%, rgb(7 29 92) 100%);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -154,7 +154,7 @@ header div{
     left: 0;
     right: 0;
     background-color: #000000;
-    opacity: 70%;
+    opacity: 0%;
     width: 80%;
 }
 .section .container {
@@ -167,7 +167,7 @@ header div{
     padding-bottom: 0rem;
 }
 .bg-overlay .container{
-    top:40%;
+    top:17%;
 }
 .banner-heading p{
     font-size: 40px;
@@ -283,7 +283,7 @@ header div{
 /*consulting*/
 
 .consulting{
-    padding:8rem 0rem 0rem 0rem;
+    padding:0rem 0rem 0rem 0rem;
 }
 .con-sec:nth-child(1){
     padding-right:2rem;
@@ -907,11 +907,11 @@ header div{
   display: -ms-flexbox;
   display: box;
   display: flex;
-  -webkit-animation: marquee 15s linear infinite running;
-  -moz-animation: marquee 15s linear infinite running;
-  -o-animation: marquee 15s linear infinite running;
-  -ms-animation: marquee 15s linear infinite running;
-  animation: marquee 15s linear infinite running;
+  -webkit-animation: marquee 25s linear infinite running;
+  -moz-animation: marquee 25s linear infinite running;
+  -o-animation: marquee 25s linear infinite running;
+  -ms-animation: marquee 25s linear infinite running;
+  animation: marquee 25s linear infinite running;
 }
 .Marquee-tag img{
     max-width: 3840px;
